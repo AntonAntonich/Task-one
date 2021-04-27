@@ -105,6 +105,8 @@ let valueOne = 20;
 let valueTwo = 50;
 let condiditionOne = randomNumber < valueOne;
 let condiditionTwo = randomNumber > valueTwo;
+let flag = true;
+console.log(flag);
 
 console.log("Random number is : " + randomNumber);
 
@@ -125,7 +127,7 @@ if(condiditionOne) {
 
 console.log("Task 5: ");
 
-switch(true) {
+switch(flag) {
     case condiditionOne:
         console.log(messageOne);
         break;
