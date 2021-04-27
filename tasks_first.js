@@ -106,7 +106,7 @@ let valueTwo = 50;
 let condiditionOne = randomNumber < valueOne;
 let condiditionTwo = randomNumber > valueTwo;
 let flag = true;
-console.log(flag);
+
 
 console.log("Random number is : " + randomNumber);
 
